@@ -20,8 +20,7 @@ header h1{
 	margin-left: 390px;
 	margin-top: -300px;
 }
-header nav{
-	width:100%;
+nav{
 	height:53px;
 	margin-top:18px;
 }
@@ -31,13 +30,15 @@ header nav ul{
 	margin-top: -7px;
 }
 header nav ul li{
-	background-color:#9db239;
 	width: 113px;
+}
+nav ul li{
+	background-color:#9db239;
 	display:inline-block;
 	color:#FFF;
 	
 }
-header nav ul li a{
+nav ul li a{
 	text-align: center;
 	width: 100%;
 	display: block;
@@ -49,7 +50,7 @@ header nav ul li a{
 	color: #fff;
 }
 
-header nav li a:hover{
+nav li a:hover{
 	color: #fff;
 	background:#ff7800;
 	text-decoration: none;
@@ -111,7 +112,7 @@ header nav li a:hover{
 	border-bottom: 1px solid #dbdbdb;
 }
 .noticia{
-	width: 25%;
+	width: 28%;
 	display: inline-block;
 	float: left;
 	height:246px;
@@ -124,6 +125,8 @@ header nav li a:hover{
 .noticia h2{
 	color: #9db239;
 	font-size:16px;
+	display: list-item;
+	margin-left: 20px;
 }
 .noticia h3{
 	color: #9db239;
@@ -140,10 +143,14 @@ header nav li a:hover{
 	bottom: 30px;
 	right: 25px;
 }
-
+#extras{
+	overflow: hidden;
+}
 #extras article{
 	display: inline-block;
 	margin-left: 40px;
+	margin-top: 40px;
+	float: left;
 }
 #herramientas{
 }
@@ -172,6 +179,9 @@ header nav li a:hover{
 	display: block;
 	vertical-align: middle;
 }
+#video{
+	height: 200px;
+}
 #video p{
 	margin-top: 20px;
 }
@@ -183,4 +193,19 @@ footer{
 	height:88px;
 	margin-top: 15px;
 
+}
+.info_contacto{
+	color: #fff;
+	float: left;
+	display: block;
+	width: 280px;
+	margin: 20px;
+}
+footer nav{
+	float: right;
+	display: block;
+	margin-right: 20px;
+}
+footer nav ul li{
+	width: 100px;
 }
