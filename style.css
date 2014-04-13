@@ -143,6 +143,14 @@ nav li a:hover{
 	bottom: 30px;
 	right: 25px;
 }
+.noticia span a{
+	color:#9db239;
+	font-weight: bold;
+	text-decoration: none;
+}
+.noticia span a:hover{
+	color:#ff7800;
+}
 #extras{
 	overflow: hidden;
 }
@@ -184,6 +192,14 @@ nav li a:hover{
 }
 #video p{
 	margin-top: 20px;
+}
+#plugin-social p{
+	margin-top: 20px;
+	height: 200px;
+	overflow: hidden;
+}
+.twitter-timeline{
+	height: 200px;
 }
 #herramientas a:hover{
 	background: #9db239;
