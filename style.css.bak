@@ -36,7 +36,7 @@ nav ul li{
 	background-color:#9db239;
 	display:inline-block;
 	color:#FFF;
-
+	
 }
 nav ul li a{
 	text-align: center;
@@ -67,6 +67,7 @@ nav li a:hover,.active{
 #contenedor-base{
 	overflow: hidden;
 	border:1px solid #dbdbdb;
+	color: 
 }
 #modulos ul{
 	list-style: none;
@@ -75,7 +76,7 @@ nav li a:hover,.active{
 #modulos li{
 	display: inline-block;
 	margin: 20px;
-
+	
 }
 #modulos li span {
 	background: #9db239;
@@ -224,72 +225,4 @@ footer nav{
 }
 footer nav ul li{
 	width: 100px;
-}
-#contenedor-adulto{
-	padding:30px;
-}
-#rutinas-adulto{
-
-}
-#contenedor-adulto section{
-	position:relative;
-	background: #fff;
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-bottom:30px; 
-}
-.titulo-contenedor{
-	position: absolute;
-	top:-10px;
-	left: -20px;
-	font-size: 18px;
-	color:#fff;
-	background: #ff7800;
-	text-align: center;
-	display: block;
-	padding: 10px;
-	width: 30%;
-}
-#rutinas-imagenes ul{list-style: none;}
-#rutinas-imagenes li{display: inline-block;margin: 2px;}
-#dietas-adulto article{
-	display: inline-block;
-	width: 30%;
-	margin-left: 2%;
-	margin-bottom: 2%;
-}
-.texto-dieta{	
-	margin-top: 20px;
-	text-align: justify;
-}
-#texto-simple p{
-	padding-left: 20px;
-	margin-bottom: 20px;
-}
-#texto-simple ul{
-	padding-left: 30px;
-}
-#contenedor-base-adulto{
-	overflow: hidden;
-	border:1px solid #dbdbdb;
-	background: #9db239;
-	width: 100%;
-}
-.comida{
-	display: inline-block;
-	width: 20%;
-	height:350px;
-	overflow: hidden;
-	margin-right: 20px;
-	}
-#snacks{
-	margin: auto;
-	text-align: center;
-
-}
-.comida h2{
-	margin: 15px;
-}
-.comida p{
-	text-align: justify;
 }
