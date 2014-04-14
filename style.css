@@ -50,7 +50,7 @@ nav ul li a{
 	color: #fff;
 }
 
-nav li a:hover{
+nav li a:hover,.active{
 	color: #fff;
 	background:#ff7800;
 	text-decoration: none;
