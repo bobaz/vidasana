@@ -293,3 +293,36 @@ footer nav ul li{
 .comida p{
 	text-align: justify;
 }
+/*niños*/
+#caja-famosos{
+width: 98%;
+margin: 0 auto;
+}
+.separador{
+border-bottom: 1px solid #dbdbdb;
+}
+
+.dieta{
+display: inline-block;
+width: 30%;
+min-height: 450px;
+overflow: hidden;
+margin-right: 20px;
+}
+#teen{
+margin-top: 50px;
+text-align: center;
+position: relative;
+}
+#teen h2{
+	margin-top: 50px;
+}
+#teen article{
+	margin-top: 20px;
+}
+.dieta h2{
+margin: 15px;
+}
+.dieta p{
+text-align: justify;
+}
