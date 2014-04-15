@@ -68,23 +68,23 @@ nav li a:hover,.active{
 	overflow: hidden;
 	border:1px solid #dbdbdb;
 }
-#modulos ul{
+.modulos ul{
 	list-style: none;
 	text-align: center;
 }
-#modulos li{
+.modulos li{
 	display: inline-block;
 	margin: 20px;
 
 }
-#modulos li span {
+.modulos li span {
 	background: #9db239;
 	width: 95%;
 	position: absolute;
 	bottom: 10px;
 	left: -10px;
 }
-#modulos li a{
+.modulos li a{
 	/*position: relative;
 	top: 5px;*/
 	color:#FFF;
@@ -95,13 +95,13 @@ nav li a:hover,.active{
 	height:25px;
 }
 
-#modulos img{
+.modulos img{
 	box-shadow: 4px 4px 5px #888888;
 }
-#modulos li a:hover{
+.modulos li a:hover{
 	background: #ff7800;
 }
-#modulos li figure{
+.modulos li figure{
 	position: relative;
 }
 #caja-noticias{
@@ -225,13 +225,16 @@ footer nav{
 footer nav ul li{
 	width: 100px;
 }
-#contenedor-adulto{
+#contenedor-adulto,#contenedor-mujeres{
 	padding:30px;
 }
 #rutinas-adulto{
+	width:auto;
+	height:350px;
+	background:#9db239;
 
 }
-#contenedor-adulto section{
+#contenedor-adulto section,#contenedor-mujeres section{
 	position:relative;
 	background: #fff;
 	padding-top: 80px;
@@ -254,7 +257,7 @@ footer nav ul li{
 #rutinas-imagenes li{display: inline-block;margin: 2px;}
 #dietas-adulto article{
 	display: inline-block;
-	width: 280px;
+	width: 29%;
 	margin-left: 2%;
 	margin-bottom: 2%;
 }
@@ -262,6 +265,8 @@ footer nav ul li{
 	margin-top: 20px;
 	text-align: justify;
 }
+#texto-simple{
+	margin-top:-20px;}
 #texto-simple p{
 	padding-left: 20px;
 	margin-bottom: 20px;
@@ -269,7 +274,7 @@ footer nav ul li{
 #texto-simple ul{
 	padding-left: 30px;
 }
-#contenedor-base-adulto{
+#contenedor-base-adulto,#contenedor-base-mujeres{
 	overflow: hidden;
 	border:1px solid #dbdbdb;
 	background: #9db239;
@@ -278,7 +283,7 @@ footer nav ul li{
 .comida{
 	display: inline-block;
 	width: 20%;
-	height:350px;
+	height:420px;
 	overflow: hidden;
 	margin-right: 20px;
 	}
@@ -294,6 +299,10 @@ footer nav ul li{
 	text-align: justify;
 }
 /*niños*/
+.creadopor{
+font-size: 10px;
+}
+
 #caja-famosos{
 width: 98%;
 margin: 0 auto;
@@ -302,30 +311,261 @@ margin: 0 auto;
 border-bottom: 1px solid #dbdbdb;
 }
 
-.dieta{
+.dieta,.mujeres-flash{
 display: inline-block;
-width: 30%;
 min-height: 450px;
 overflow: hidden;
 margin-right: 20px;
+width: 30%;
+}
+.mujeres-flash{
+	margin-left: 20px;
+	margin-right: 0;
+}
+.separador-vertical{
+	width:4%;
+	display: inline-block;
+	float: left;
+	min-height: 100%;
+	overflow: hidden;
 }
 #teen{
-margin-top: 50px;
+margin-top: 30px;
 text-align: center;
 position: relative;
 }
-#teen h2{
+#teen > h2{
 	margin-top: 50px;
+	background: #ff7800;
 }
 #teen article{
 	margin-top: 20px;
 }
-.dieta h2{
-margin: 15px;
+.dieta h2,.mujeres-flash h2{
+margin: 10px 0px 10px 0px;
 }
-.dieta p{
+.dieta p, .mujeres-flash p{
 text-align: justify;
 }
-.creadopor{
-font-size: 10px;
+.mujeres-flash p{
+}
+/*Jovenes*/
+#caja-jovenes-videos h1{
+	font-size:24px;}
+.contenedor-jovenes{
+	position: absolute;
+	top:-10px;
+	left: -20px;
+	font-size: 18px;
+	color:#fff;
+	background: #ff7800;
+	text-align: center;
+	display: block;
+	padding: 10px;
+	width: 30%;
+}
+#caja-noticias-jovenes{
+	width: 98%;
+	margin:0 auto;
+}
+.separador-jovenes{
+	border-bottom: 1px solid #dbdbdb;
+}
+.noticia-jovenes{
+	width: 28%;
+	display: inline-block;
+	float: left;
+	height:350px;
+	width: 251px;
+	margin: 2%;
+	border:1px solid #dbdbdb;
+	padding: 10px;
+	position: relative;
+}
+.noticia-jovenes h2{
+	color: #9db239;
+	font-size:16px;
+	display: list-item;
+	margin-left: 20px;
+
+}
+.noticia-jovenes h3{
+	color: #9db239;
+	font-size: 10px;
+}
+.noticia-jovenes p{
+	text-align: justify;
+	padding: 5px;
+	margin-top: 12px;
+
+}
+.noticia-jovenes span{
+	position: absolute;
+	bottom: 30px;
+	right: 25px;
+}
+.noticia-jovenes span a{
+	color:#9db239;
+	font-weight: bold;
+	text-decoration: none;
+}
+.noticia-jovenes span a:hover{
+	color:#ff7800;
+}
+#rutinas-video h1{
+	margin-bottom: 20px;
+}
+#rutinas-video{
+	margin-top:160px;}
+#rutinas-video ul li p{
+	padding:10px;
+	background:#ff7800;
+	
+}
+#margin-video ul{
+
+	text-align: center;
+}
+#rutinas-video li{
+	display: inline-block;
+	}
+#caja-jovenes-videos{
+	overflow: hidden;
+	height: 400px;
+	margin-left: 30px;
+	margin-top:20px;
+}
+#caja-jovenes-videos ul{
+	margin-top:30px;}
+.izq{
+	float:left;
+	margin-left: 120px;
+}
+.der{
+	float:right;
+	margin-right: 120px;
+	margin: 1px solid #ff7800;
+}
+.izq,.der{
+	min-height: 200px;
+}
+#recetas-saludables{
+	overflow: hidden;
+	margin:auto;
+}
+#caja-mayores-videos{
+	width:auto;
+	height:300px;
+	}
+#rutinas-video ul{
+	margin-top:-80px;}
+.izq-may{
+	float:left;
+	margin-left: 120px;
+}
+.der-may{
+	float:right;
+	margin-right: 120px;
+	margin: 1px solid #ff7800;
+}
+.izq-may,.der-may{
+	min-height: 200px;
+}
+
+#contenedor-admin{
+	width: 80%;
+	background: #fff;
+	margin:20px;
+	padding-left:20px;
+}
+#contenedor-admin section{
+	padding-left: 20px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	position: relative;
+	padding-top: 40px;
+}
+/* tables */
+table.posts {
+	font-family:arial;
+	background-color: #9db239;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 60%;
+	text-align: left;
+}
+table.posts thead tr th, table.posts tfoot tr th {
+	background-color: #9db239;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+	color:#fff;
+}
+table.posts thead tr .header {
+	cursor: pointer;
+}
+table.posts tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.posts tbody tr.odd td {
+	background-color:#F0F0F6;
+
+}
+table.posts thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.posts thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.posts thead tr .headerSortDown, table.posts thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
+.noticianueva{
+	display: none;
+	margin-left: 120px;
+	width:200px;
+}
+.nuevaboton{
+	width: 220px;
+	display: block;
+	text-align: right;
+	margin-bottom: 20px;
+}
+.nuevaboton a{
+	background: #9db239;
+	color:#fff;
+	text-decoration: none;
+	padding: 6px;
+}
+.nuevaboton a:hover{
+	background: #ff7800;
+}
+.block input,.block textarea{
+	-moz-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ccc;
+	width:200px;
+}
+.block textarea{
+	min-height: 150px;
+}
+#banner-admin img{
+	width: 650px;
+	height: 200px;
+}
+.block{
+	margin:4px;
+}
+.boton{
+	float:right;
+}
+#contenedor-base-admin{
+	overflow: hidden;
+	border:1px solid #dbdbdb;
+	background: #9db239;
+	width: 100%;
 }
