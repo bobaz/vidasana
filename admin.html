@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+<meta charset="utf-8" />
+<title>Vida Sana</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+<link rel="icon" href="imagenes/sushi.png">
+</head>
+<body>
+  
+	<header>
+      	
+        <figure><img src="imagenes/banner.jpg"></figure>
+        <h1><img src="imagenes/logo.png"></h1>
+           <div class="contenedor-search">
+            <form action="#" method="GET">
+                    <input type="text" placehoder="Buscar" autocomplete="off" maxlength="240"/>
+            </form>
+        </div>
+    </header>
+    <div id="contenedor-principal">
+        <div id="contenedor-base-admin">
+        <!-- adentro va el contenido se agregan todos los elementos nuevos con ID nuevos -->
+            <div id="contenedor-admin">
+            <section id="noticias-admin">
+                <h2 class="titulo-contenedor">NOTICIAS</h2>   
+                <table class="posts">
+                    <thead>
+                        <tr>
+                            <th>Noticia</th>
+                            <th>Fecha</th> 
+                            <th>ver</th>
+                            <th>editar</th>
+                            <th>borrar</th>    
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Titulo noticia 1</td>
+                        <td>04 de Abril 2014</td> 
+                        <td><a href="#">ver</a></td>
+                        <td><a href="#">editar</a></td>
+                        <td><a href="#">borrar</a></td>
+                    </tr>
+                    <tr>
+                        <td>Titulo noticia 2</td>
+                        <td>02 de Abril 2014</td>
+                        <td><a href="#">ver</a></td>
+                        <td><a href="#">editar</a></td>
+                        <td><a href="#">borrar</a></td>
+                    </tr>
+                    </tbody> 
+                </table>
+                <span class="nuevaboton"><a href="#">Agregar Noticia...</a></span>
+                <div class="separador"></div>
+                <div class="noticianueva">
+                   <form action="#" method="POST">
+                        <div class="block"><input type="text" name="titulo" placeholder="Título..." /></div>
+                        <div class="block"></div>
+                        <div class="block"><textarea placeholder="Noticia"></textarea></div>
+                        <div class="boton"><input type="submit" value="Enviar" /></div>
+                   </form>
+                </div>
+                <div class="separador"></div>
+            </section>
+            <section id="banner-admin">
+                <h2 class="titulo-contenedor">IMAGEN PRINCIPAL</h2>
+                <figure>
+                    <img src="imagenes/banner.jpg"alt="imagen banner" />
+                </figure>
+                <form action="#" method="POST"  enctype="multipart/form-data">
+                    <input type="file"> <input type="submit" value="Enviar">
+                </form>
+                <div class="separador"></div>
+            </section>
+
+            </div>
+        </div>    
+        <footer>
+        <div class="info_contacto">
+        <p>Fono contacto: 02 - 25890084</p>
+        <p>email@saludahora.cl</p>
+        <p>SaludAhora</p>
+        </div>
+       </footer>
+    </div>
+    <script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+    <script type="text/javascript">
+    $('.nuevaboton').click(function(){
+        $('.noticianueva').slideToggle();
+        return(false);
+    });
+    $('form').submit(function() {
+       alert("Informacion actualizada...\n  Muchas gracias")
+    });
+    </script>
+</body>
+</html>
